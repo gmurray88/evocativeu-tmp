@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => (
   <div className={classes.background}>
     <Container fluid >
       <Row>
-        <Col xs={6} sm={6} md={6} lg={6} xl={7} xxl={8}>
+        <Col xs={12} sm={12} md={6} lg={6} xl={7} xxl={8}>
   
             <h2 className={classes.logo}>
             <Link to="/" className={classes.link}>
@@ -24,7 +24,7 @@ const Header = ({ siteTitle }) => (
             </p> 
       
             </Col>      
-<Col Col xs={6} sm={6} md={6} lg={6} xl={5} xxl={4}>
+<Col Col xs={12} sm={12} md={6} lg={6} xl={5} xxl={4}>
 
           <Bio />
           </Col>  
