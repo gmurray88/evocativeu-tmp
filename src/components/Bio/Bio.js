@@ -25,9 +25,9 @@ const Bio = () => {
 
   return (
     <div className={classes.bio}>
-      
+      <div className={classes.bioavatar}>
       <StaticImage
-        imgStyle={{ borderRadius: "50%" }}
+        imgStyle={{ borderRadius: "50%", Height: "70px", Width: "70px" }}
         layout="fixed"
         src="../../images/GlennMurray.jpg"
         quality={95}
@@ -35,7 +35,7 @@ const Bio = () => {
         height={70}
         alt="Glenn Murray"
       />
-      
+   </div>
       {author?.name && (
         <p>
           Written by <strong>{author.name}</strong> {author?.summary || null}
