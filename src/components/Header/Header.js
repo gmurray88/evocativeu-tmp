@@ -12,8 +12,8 @@ const Header = ({ siteTitle }) => (
   <div className={classes.background}>
     <Container fluid >
       <Row>
-        <Col>
-          <header className={classes.header}>
+        <Col xs={6} sm={6} md={8} lg={8} xl={8} xxl={9}>
+  
             <h2 className={classes.logo}>
             <Link to="/" className={classes.link}>
                Evocative U
@@ -23,19 +23,25 @@ const Header = ({ siteTitle }) => (
                 (ee-vok'-uh-tiv) Bringing strong images, memories, or feelings to mind
             </p> 
       
-             <nav className={classes.navbar}>
+            </Col>      
+<Col Col xs={6} sm={6} md={4} lg={4} xl={4} xxl={3}>
 
-              <Link to="/blog" className={classes.link}>
-                Blog
-              </Link>
-              <Link to="/artplaylists" className={classes.link}>
-                Art Playlists
-              </Link>
-            </nav>
-          </header>
           <Bio />
-        </Col>
+          </Col>  
     
+      </Row>
+      <Row>
+        <Col>
+        <nav className={classes.navbar}>
+
+<Link to="/blog" className={classes.link}>
+  Blog
+</Link>
+<Link to="/artplaylists" className={classes.link}>
+  Art Playlists
+</Link>
+</nav>
+        </Col>
       </Row>
     </Container>
   </div>
