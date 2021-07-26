@@ -1,0 +1,40 @@
+.background {
+  background-color: var(--white);
+}
+
+.header {
+  max-width: var(--site-width); 
+  margin: 0 auto;
+  padding: 1rem 0 1rem 0;
+}
+
+.headerImage {
+  max-height: 100px;
+  max-width: 90vw;
+}
+
+
+
+.logo {
+  font-family: var(--sans-serif-font-family);
+  font-weight: 200;
+  color: var(--dark-purple);
+}
+
+.navbar {
+  margin-top: 3rem;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.link {
+  color: rgba(var(--purple), var(--alpha-dimmed));
+  text-decoration: none;
+  padding-right: 2rem;
+}
+
+.link:hover {
+  color: rgba(var(--purple), var(--alpha-full));
+}

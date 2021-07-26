@@ -1,0 +1,53 @@
+.coverImageContainer {
+  margin: 0;
+  padding: 0;
+}
+
+.coverImage {
+  max-height: 60vh;
+}
+
+.post {
+  margin-top: 3rem;
+  font-family: var(--sans-serif-font-family);
+  font-size: 14px;
+  font-weight: light;
+}
+
+.post * img {
+  max-width: 100%;
+}
+
+.post ul,
+.post ol {
+  margin: 2.5rem 0 2.5rem 2rem;
+}
+
+.post ul {
+  list-style: disc;
+}
+
+.post ol {
+  list-style: decimal;
+}
+
+.post ol li,
+.post ul li {
+  margin-bottom: 0.75rem;
+}
+
+.date {
+  font-size: .9rem;
+  font-family: var(--sans-serif-font-family);
+  color: var(--black);
+}
+
+.metadata {
+  margin-bottom: 3rem;
+}
+
+.postTitle {
+  font-weight: 400;
+}
+
+
