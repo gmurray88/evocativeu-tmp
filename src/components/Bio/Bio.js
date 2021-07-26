@@ -40,10 +40,11 @@ const Bio = () => {
         <p>
           Written by <strong>{author.name}</strong> {author?.summary || null}
           <a href={`${social?.linkedin || ``}`}>CV</a>
-          {` Here's my latest `}
+          <p>{` Here's my latest `}
           <Link to="/blog/key-west-2021">
             think piece.
           </Link>
+          </p>
             </p>
       )}
     </div>
